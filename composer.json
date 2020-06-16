@@ -1,7 +1,7 @@
 {
     "name": "ssskit/easyzip",
     "description": "超级简单的zip文件解压，压缩工具",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
