@@ -1,0 +1,25 @@
+{
+    "name": "ssskit/zip",
+    "description": "超级简单的zip文件解压，压缩工具",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kit",
+            "email": "ssskit@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-zlib": "*",
+        "psr/http-message": "^1.0",
+        "paragonie/random_compat": "*",
+        "symfony/finder": "^3.0|^4.0|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyZip\\": "src/"
+        }
+    }
+}
